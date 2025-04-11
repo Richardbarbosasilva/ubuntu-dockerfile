@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  ubuntu-custom:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ubuntu-xfce
+    tty: true
